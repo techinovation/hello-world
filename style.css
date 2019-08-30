@@ -1,0 +1,184 @@
+body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: Quicksand;
+}
+
+ 
+ nav.black {
+	 background: rgba(0,0,0,0.8);
+	 height: 100px;
+	 padding: 10px 100px;
+ }
+ 
+nav .logo {
+    padding: 22px 20px;
+    height: 100px;
+    float: left;
+    font-size: 36px;
+    transition: .3s;
+    color:white;
+}
+
+ 
+ 
+ 
+ nav ul {
+	 list-style: none;
+	 float: right;
+	 margin: 0;
+	 padding: 0;
+	 display: flex;
+         color:rgb(89, 65, 130);
+ }
+ 
+ nav ul li {
+	 list-style: none;
+color:rgb(89, 65, 130); 
+}
+ 
+ nav ul li a{
+	 line-height: 80px;
+	color:white;
+	 padding: 12px 30px;
+	 text-decoration: none;
+	 text-transform:uppercase;
+	 transition: .3s;
+ 	font-style:bold;
+font-size: 22px;
+font-family: "Georgia";
+}
+ 
+ nav.blue ul li a.{
+	 color: #fff;
+ }
+ 
+ nav ul li a:focus {
+	
+	 outline: none;
+ }
+ 
+ nav ul li a.active {
+	 background: #E2472F;
+	 color: #fff;
+	 border-radius: 6px;
+ }
+ section.sec1 {
+	 width: 100%;
+	 height: 80vh;
+	 background: url(POO.jpg);
+	 background-size: cover;
+	background-attachment:fixed;
+	 background-position: center;
+ }
+ 
+ .content {
+
+ 
+ }
+ .content p {
+	 width: 1300px;
+	 margin: 30px;
+	 text-align: justify;
+	 font-size: 20px;
+	 line-height:30px;
+
+ }
+ .container p{
+	 text-transform:uppercase;
+	 text-align: center;
+	 font-size: 45px;
+	 margin-bottom: 20px;
+	 color:#486255;
+ }
+ .input, .msg .area{
+	 width: 100%;
+	 padding:20px;
+	 box-sizing: border-box;
+	 margin-bottom:25px;
+	 border: 2px solid #e9earea;
+	 font-size: 14px;
+	 border-radius: 5px;
+	 outline: none;
+	 transition: all 0.5% ease;
+	 
+ }
+ .login .input {
+	 width: 48%;
+	 float: left;
+	 margin-right: 4%;
+	 
+ }
+ 
+ .login .area{
+	 height: 200px;
+	 
+ }
+ .btn{
+	 width: 250px;
+	 background: #486255;
+	 height: 50px;
+	 text-align: center;
+	 line-height: 50px;
+	 color:#fff;
+	 text-transform: uppercase;
+	 margin: 0 auto;
+	 cursor: pointer;
+	 border-radius: 5px;
+ }
+ 
+ .w3l-footer {
+    background: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.social {
+    width: 750px;
+}
+.social {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+{
+    display: block;
+}
+
+.left-w3 a {
+    font-size: 31px;
+}
+.left-w3 a {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.23) !important;
+    font-family: 'Rubik', sans-serif;
+	
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+
+
+.footer-nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+	color:yellow;
+	
+}
+.copyright-agile {
+    padding: 1em 0em 4.5em;
+	color: skyblue;
+}
